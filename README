@@ -1,0 +1,5 @@
+Run dev.sh then when the REPL is connected:
+
+(jamesdavidson.replicant.svg.demo/-main)
+
+It is unclear to me why --main jamesdavidson.replicant.svg.demo does not work

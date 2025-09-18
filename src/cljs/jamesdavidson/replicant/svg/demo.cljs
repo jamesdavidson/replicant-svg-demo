@@ -40,5 +40,5 @@
       [:p.opacity-50
        "Posted 18th September 2025"]]]))
 
-(defn init []
+(defn -main [& args]
   (refresh @state))

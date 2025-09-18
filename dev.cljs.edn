@@ -1,6 +1,0 @@
-^{:watch-dirs ["src/cljs"]
-  :css-dirs ["resources/public/css"]
-  :auto-testing true
-  :ring-server-options {:port 9500}
-   }
-{:main jamesdavidson.replicant.svg.demo}

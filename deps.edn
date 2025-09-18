@@ -2,11 +2,4 @@
         org.clojure/clojurescript {:mvn/version "1.11.54"}
         org.clojure/core.async {:mvn/version "1.5.648"}
         no.cjohansen/replicant {:mvn/version "2025.06.21"}}
- :paths ["src/cljs" "resources"]
- :aliases {:fig {:extra-deps
-                  {com.bhauman/rebel-readline-cljs {:mvn/version "0.1.4"}
-                   com.bhauman/figwheel-main {:mvn/version "0.2.18"}}
-                 :extra-paths ["target" "test/cljs"]}
-           :build {:main-opts ["-m" "figwheel.main" "-b" "dev" "-r"]}
-           :min   {:main-opts ["-m" "figwheel.main" "-O" "advanced" "-bo" "dev"]}
-           :test  {:main-opts ["-m" "figwheel.main" "-co" "test.cljs.edn" "-m" "com.test-runner"]}}}
+ :paths ["src/cljs"]}

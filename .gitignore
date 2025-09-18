@@ -3,3 +3,4 @@ target
 .rebel_readline_history
 .idea
 *.iml
+public/js/*
