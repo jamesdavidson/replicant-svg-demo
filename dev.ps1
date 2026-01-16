@@ -1,0 +1,1 @@
+clojure -M --main cljs.main --output-dir public/js --compile-opts compile.edn --repl-opts repl.edn --verbose --watch src --compile  jamesdavidson.replicant.svg.demo --repl --serve 127.0.0.1:8080

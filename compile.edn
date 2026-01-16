@@ -1,0 +1,3 @@
+{:asset-path "js"
+ :closure-defines {"clojure.browser.repl.HOST" "127.0.0.1"
+                   "clojure.browser.repl.PORT" 8080}}
